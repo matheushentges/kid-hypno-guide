@@ -65,11 +65,8 @@ const Index = () => {
           <p className="mb-6 max-w-2xl mx-auto text-gray-700">
             O guia essencial para terapeutas e cuidadores que desejam transformar a vida de crianças através da hipnoterapia.
           </p>
-          
-          
-          <div className="mt-8 pt-8 border-t border-gray-300/50 text-sm text-gray-600">
+    
             <p>&copy; {new Date().getFullYear()} Hipnoterapia Infantil. Todos os direitos reservados.</p>
-          </div>
         </div>
       </footer>
     </div>
