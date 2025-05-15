@@ -7,7 +7,7 @@ const CTASection = () => {
     <section id="comprar" className="section-container">
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-4xl mx-auto">
         <div className="p-8 md:p-12 bg-gradient-to-r from-brand-blue to-brand-light-blue text-gray-700 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Aprenda Hipnoterapia Infantil e Transforme Vidas
           </h2>
           <p className="text-lg md:text-xl mb-0 max-w-2xl mx-auto opacity-90">
