@@ -67,8 +67,8 @@ const CTASection = () => {
               href="https://google.com" 
               className="bg-[#3AB795] hover:bg-[#319f82] text-white font-bold text-xl px-8 py-5 rounded-3xl shadow-xl w-full md:w-auto text-center transition-all duration-300"
 
-              aria-label="Garantir acesso ao curso agora"
-            >
+              aria-label="Comprar agora">
+
               🛒 COMPRAR AGORA
             </a>
              <br />
@@ -82,12 +82,10 @@ const CTASection = () => {
               </div>
             </div>
           </div>
-
-          <div className="mt-8 text-center text-sm text-gray-500">
-            <p>
-              Ao comprar você concorda com nossos <a href="#" className="text-brand-blue hover:underline">Termos de Uso</a> e <a href="#" className="text-brand-blue hover:underline">Política de Privacidade</a>.
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-500">
+              Garantia de 7 dias. Se não gostar, devolvemos seu dinheiro.
             </p>
-          </div>
         </div>
       </div>
     </section>

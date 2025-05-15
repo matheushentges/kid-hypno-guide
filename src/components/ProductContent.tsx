@@ -28,16 +28,16 @@ const ProductContent = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-brand-blue mb-3">
-                  🧩 Módulo 1 – Fundamentos da Hipnoterapia Infantil
+                  🧩 Módulo 1 – Transformando a Saúde Emocional Infantil
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Entenda a fundo como a hipnoterapia funciona no universo infantil, qual o papel do terapeuta e dos pais no processo, e como utilizar abordagens lúdicas para se conectar com as crianças.
+                  Neste módulo, você aprenderá a identificar e lidar com os principais desafios emocionais enfrentados por crianças e adolescentes.
                 </p>
                 <p className="text-gray-700 mb-2 font-medium">
-                  Você vai descobrir como essa ferramenta pode ajudar no tratamento de questões como:
+                  Você vai aprender a lidar com:
                 </p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
-                  {["Ansiedade", "Enurese noturna (xixi na cama)", "Distúrbios do sono", "Dificuldade de concentração"].map((item, index) => (
+                  {["Enurese noturna (xixi na cama)", "Ansiedade", "Medos excessivos","estresse", "Identificar sinais de depressão"].map((item, index) => (
                     <li key={index} className="flex items-center">
                       <Check className="h-5 w-5 text-brand-green mr-2 flex-shrink-0" />
                       <span className="text-gray-700">{item}</span>
@@ -45,7 +45,7 @@ const ProductContent = () => {
                   ))}
                 </ul>
                 <p className="mt-3 text-gray-700">
-                  E muitos outros desafios comuns da infância.
+                  <strong>Resultado:</strong> Redução de crises e equilíbrio emocional duradouro.
                 </p>
               </div>
             </div>
@@ -59,10 +59,24 @@ const ProductContent = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-brand-blue mb-3">
-                  🛠️ Módulo 2 – Técnicas e Protocolos Terapêuticos
+                  🛠️ Módulo 2 – Comportamento e Rotina Saudável
                 </h3>
                 <p className="text-gray-700">
-                  Aprenda passo a passo estratégias exclusivas e protocolos altamente eficazes para aplicação em sessões. Algumas das técnicas apresentadas são inéditas, desenvolvidas a partir de anos de experiência com o público infantil — e você poderá aplicá-las com clareza e segurança desde a primeira leitura.
+                  Solução para comportamentos disruptivos e melhora da rotina familiar. Aprenda a aplicar técnicas de hipnose e PNL para ajudar crianças a desenvolverem hábitos saudáveis e comportamentos positivos.
+                </p>
+                <p className="text-gray-700 mb-2 font-medium">
+                  Você vai aprender a lidar com:
+                </p>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
+                  {["Insônia", "Enurese noturna (xixi na cama)", "Hiperatividade","Falta de foco"].map((item, index) => (
+                    <li key={index} className="flex items-center">
+                      <Check className="h-5 w-5 text-brand-green mr-2 flex-shrink-0" />
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-3 text-gray-700">
+                  <strong>Resultado:</strong> Sono reparador, harmonia familiar e maior concentração infantil.
                 </p>
               </div>
             </div>
@@ -76,13 +90,27 @@ const ProductContent = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-brand-blue mb-3">
-                  🌙 Módulo 3 – Sleep Talk: O Poder da Palavra no Sono
+                  🌙 Módulo 3 – Método Sleep Talk para Pais e Cuidadores
                 </h3>
                 <p className="text-gray-700 mb-2">
                   <span className="font-medium">Um dos grandes diferenciais do material!</span>
                 </p>
                 <p className="text-gray-700">
-                  Você vai conhecer a metodologia do Sleep Talk, um complemento revolucionário à hipnoterapia. Aprenda como os pais podem aplicar essa técnica em casa, com instruções simples, linguagem acolhedora e envolvimento afetivo — tudo embasado em casos reais e comprovados.
+                  Revolução na conexão familiar com hipnoterapia prática. Aprenda a usar o método Sleep Talk para ajudar crianças a desenvolverem autoconfiança, autoestima e habilidades sociais.
+                </p>
+                <p className="text-gray-700 mb-2 font-medium">
+                  Você vai aprender:
+                </p>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
+                  {["Passo a passo para aplicar técnicas em casa (linguagem simples e afetiva)", "Casos reais de sucesso e fortalecimento do vínculo pais-filhos"].map((item, index) => (
+                    <li key={index} className="flex items-center">
+                      <Check className="h-5 w-5 text-brand-green mr-2 flex-shrink-0" />
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-3 text-gray-700">
+                  <strong>Resultado:</strong> Autonomia para os pais e rotina infantil mais tranquila comprovada por resultados.
                 </p>
               </div>
             </div>
@@ -221,7 +249,7 @@ const ProductContent = () => {
                 href="#comprar" 
                 className="btn-primary text-lg px-10 py-4"
               >
-                👉 SIM, EU QUERO APRENDER!
+                👉 COMPRAR!
               </a>
             </div>
           </div>

@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl mb-10 max-w-3xl text-gray-700">
-            Aprenda a aplicar métodos modernos e eficazes de hipnoterapia criados especialmente para o universo infantil — e faça a diferença na vida de cada criança que você atender.
+            Aprenda a aplicar métodos modernos e eficazes de hipnoterapia criados especialmente para o universo infantil — e faça a diferença na vida das crianças.
           </p>
           
           <a 

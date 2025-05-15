@@ -66,11 +66,6 @@ const Index = () => {
             O guia essencial para terapeutas e cuidadores que desejam transformar a vida de crianças através da hipnoterapia.
           </p>
           
-          <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-sm text-gray-600">
-            <a href="#" className="hover:text-gray-900 transition-colors">Termos de Uso</a>
-            <a href="#" className="hover:text-gray-900 transition-colors">Política de Privacidade</a>
-            <a href="#" className="hover:text-gray-900 transition-colors">Contato</a>
-          </div>
           
           <div className="mt-8 pt-8 border-t border-gray-300/50 text-sm text-gray-600">
             <p>&copy; {new Date().getFullYear()} Hipnoterapia Infantil. Todos os direitos reservados.</p>
