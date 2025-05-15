@@ -69,11 +69,12 @@ const CTASection = () => {
 
           <div className="text-center">
             <a 
-              href="#" 
-              className="btn-primary inline-block w-full md:w-auto text-center text-lg"
+              href="https://google.com" 
+              className="bg-[#3AB795] hover:bg-[#319f82] text-white font-semibold px-6 py-3 rounded-2xl shadow-lg w-full md:w-auto text-center text-lg transition-all duration-300"
+
               aria-label="Garantir acesso ao curso agora"
             >
-              ✅ QUERO DESCOBRIR A HIPNOTERAPIA INFANTIL
+              🛒 COMPRAR AGORA
             </a>
             
             <div className="mt-6 p-4 bg-brand-light-green rounded-lg inline-block">
