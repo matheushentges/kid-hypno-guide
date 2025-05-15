@@ -194,7 +194,7 @@ const ProductContent = () => {
               <div key={index} className="flex items-start">
                 <Check className="h-6 w-6 text-brand-green mt-0.5 mr-3 flex-shrink-0" />
                 <div>
-                  <h4 className="font-bold text-gray-800">✔️ {item.title}:</h4>
+                  <h4 className="font-bold text-gray-800"> {item.title}:</h4>
                   <p className="text-gray-700">{item.description}</p>
                 </div>
               </div>
