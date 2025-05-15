@@ -6,8 +6,10 @@ const NavBar = () => {
     <nav className="bg-white shadow-sm py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Shield className="h-8 w-8 text-brand-blue mr-2" />
-          <span className="font-poppins font-semibold text-lg md:text-xl text-brand-blue">Hipnoterapia Infantil</span>
+          <Shield className="h-8 w-8 mr-2" style={{ color: '#5e81ac' }} />
+          <span className="font-poppins font-semibold text-lg md:text-xl text-brand-blue" style={{ color: '#5e81ac' }}>
+            Hipnoterapia Infantil
+          </span>
         </div>
         <div>
           <a 
