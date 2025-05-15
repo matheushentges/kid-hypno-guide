@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Lock, Zap, CheckCircle } from 'lucide-react';
+import CountdownTimer from './CountdownTimer';
 
 const CTASection = () => {
   return (
@@ -16,6 +17,16 @@ const CTASection = () => {
         </div>
 
         <div className="p-8 md:p-12">
+          <div className="mb-6">
+            <CountdownTimer initialMinutes={10} />
+          </div>
+
+          <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mb-8 rounded-r-md">
+            <p className="text-amber-800 font-medium">
+              ⚠️ <span className="font-bold">OPORTUNIDADE IMPERDÍVEL:</span> Esta oferta especial com desconto de 70% está disponível apenas por tempo limitado. Não perca a chance de transformar vidas com estas técnicas exclusivas!
+            </p>
+          </div>
+
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 pb-8 border-b border-gray-200">
             <div>
               <p className="text-gray-500 mb-2 text-lg">Investimento único:</p>
