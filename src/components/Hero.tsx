@@ -24,6 +24,7 @@ const Hero = () => {
             href="#comprar" 
             className="btn-primary group"
             aria-label="Garantir acesso ao curso agora"
+            style={{ backgroundColor: '#FFA77D', borderColor: '#FFA77D' }}
           >
             QUERO TRANSFORMAR VIDAS
             <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>

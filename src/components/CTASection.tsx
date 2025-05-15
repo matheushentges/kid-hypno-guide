@@ -25,8 +25,8 @@ const CTASection = () => {
             <div>
               <p className="text-gray-500 mb-2 text-lg">Investimento único:</p>
               <div className="flex items-center">
-                <span className="text-gray-400 line-through text-xl">R$197</span>
-                <span className="ml-3 text-4xl font-bold text-brand-blue">R$57</span>
+                <span className="text-gray-400 line-through text-xl" style={{ color: '#dc2727' }}>R$197</span>
+                <span className="ml-3 text-4xl font-bold text-brand-blue" style={{ color: '#3ab895' }}>R$57</span>
               </div>
               <p className="text-sm text-gray-500 mt-1">Pagamento único • Acesso vitalício</p>
             </div>

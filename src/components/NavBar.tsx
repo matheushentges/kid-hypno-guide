@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Shield } from 'lucide-react';
 
@@ -13,7 +12,8 @@ const NavBar = () => {
         <div>
           <a 
             href="#comprar" 
-            className="hidden md:inline-block bg-brand-accent hover:bg-amber-200 text-gray-700 font-medium py-2 px-4 rounded-lg transition-all duration-300"
+            className="hidden md:inline-block text-gray-700 font-medium py-2 px-4 rounded-lg transition-all duration-300"
+            style={{ backgroundColor: '#FFA77D', borderColor: '#FFA77D' }}
           >
             Garantir Acesso
           </a>

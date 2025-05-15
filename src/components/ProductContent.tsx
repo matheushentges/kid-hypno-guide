@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Book, Award, Gift, Check, Clock } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -231,7 +230,7 @@ const ProductContent = () => {
 
           <div className="mt-8 text-center">
             <div className="mb-6">
-              <p className="text-2xl font-bold text-gray-800 mb-2">💸 Tudo isso por apenas <span className="text-brand-blue">R$57</span></p>
+              <p className="text-2xl font-bold text-gray-800 mb-2">💸 Tudo isso por apenas <span className="text-brand-blue" style={{ color: '#3ab895' }}>R$57</span></p>
               <p className="text-gray-700">Isso mesmo: por menos do que o valor de uma única sessão terapêutica, você garante acesso a um material rico, profundo e cheio de estratégias que você pode aplicar para a vida toda.</p>
             </div>
 
@@ -248,6 +247,7 @@ const ProductContent = () => {
               <a 
                 href="#comprar" 
                 className="btn-primary text-lg px-10 py-4"
+                style={{ backgroundColor: '#FFA77D', borderColor: '#FFA77D' }}
               >
                 👉 COMPRAR!
               </a>
