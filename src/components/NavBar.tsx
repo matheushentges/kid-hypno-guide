@@ -13,7 +13,7 @@ const NavBar = () => {
           <a 
             href="#comprar" 
             className="hidden md:inline-block text-gray-700 font-medium py-2 px-4 rounded-lg transition-all duration-300"
-            style={{ backgroundColor: '#FFA77D', borderColor: '#FFA77D' }}
+            style={{ backgroundColor: '#3ab895', borderColor: '#3ab895' }}
           >
             Garantir Acesso
           </a>

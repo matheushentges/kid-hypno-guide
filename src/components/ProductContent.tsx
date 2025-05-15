@@ -247,7 +247,7 @@ const ProductContent = () => {
               <a 
                 href="#comprar" 
                 className="btn-primary text-lg px-10 py-4"
-                style={{ backgroundColor: '#FFA77D', borderColor: '#FFA77D' }}
+                style={{ backgroundColor: '#3ab895', borderColor: '#3ab895' }}
               >
                 👉 COMPRAR!
               </a>
