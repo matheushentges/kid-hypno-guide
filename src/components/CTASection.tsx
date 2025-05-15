@@ -71,16 +71,7 @@ const CTASection = () => {
               🛒 COMPRAR AGORA
             </a>
             
-            <div className="mt-6 p-4 bg-brand-light-green rounded-lg inline-block">
-              <div className="flex items-center justify-center">
-                <Lock className="h-5 w-5 text-brand-green mr-2" />
-                <br></br>
-                <p className="text-gray-700 font-medium">
-                   Acesso imediato e vitalício
-                </p>
-              </div>
-            </div>
-          </div>
+
 
           <div className="mt-8 text-center text-sm text-gray-500">
             <p>
