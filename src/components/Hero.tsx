@@ -3,8 +3,12 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="bg-hero-gradient py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="bg-hero-gradient py-16 md:py-24 relative">
+      <div className="absolute inset-0 bg-cover bg-center opacity-10" 
+           style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop)' }}>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-brand-blue leading-tight max-w-4xl">
             Domine a Hipnoterapia Infantil e Transforme a Vida de Crianças com Técnicas Inovadoras

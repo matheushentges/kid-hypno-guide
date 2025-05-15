@@ -1,19 +1,22 @@
 
 import React from 'react';
 import { Star } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const testimonials = [
   {
     id: 1,
     quote: "Transformador! Esse guia chegou como um alívio na minha rotina com três filhas em fases totalmente diferentes. Uma com TDAH, outra com DDA e a mais nova sempre tentando agradar a todos. Me ajudou a organizar a casa, equilibrar as emoções e criar um ambiente mais leve. Waldiney trouxe orientações práticas, acessíveis e com uma linguagem que acolhe. Um verdadeiro presente para quem quer criar filhos emocionalmente saudáveis.",
     author: "Thamires Couto",
-    role: "Mãe e servidora pública"
+    role: "Mãe e servidora pública",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=500&auto=format&fit=crop"
   },
   {
     id: 2,
     quote: "Trabalhar com crianças há mais de 30 anos me mostrou que o que elas mais precisam são estímulos para florescerem. Esse material vai direto ao ponto: prático, objetivo e repleto de técnicas eficazes. Um verdadeiro guia para terapeutas que desejam ter mais resultados com o público infantil. Waldiney reuniu aqui um conteúdo essencial, feito com conhecimento e sensibilidade.",
     author: "Patricia Simas",
-    role: "Neuropsicopedagoga e hipnoterapeuta"
+    role: "Neuropsicopedagoga e hipnoterapeuta",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=500&auto=format&fit=crop"
   }
 ];
 
@@ -50,9 +53,12 @@ const Testimonials = () => {
               </blockquote>
               
               <div className="flex items-center">
-                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-brand-blue to-brand-light-blue flex items-center justify-center text-white font-bold">
-                  {testimonial.author.charAt(0)}
-                </div>
+                <Avatar className="h-14 w-14 border-2 border-brand-light-blue">
+                  <AvatarImage src={testimonial.image} alt={testimonial.author} />
+                  <AvatarFallback className="bg-brand-blue text-white">
+                    {testimonial.author.charAt(0)}
+                  </AvatarFallback>
+                </Avatar>
                 <div className="ml-4">
                   <p className="font-semibold text-gray-800">{testimonial.author}</p>
                   <p className="text-gray-500 text-sm">{testimonial.role}</p>

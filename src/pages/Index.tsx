@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
+import ProductContent from '../components/ProductContent';
 import Testimonials from '../components/Testimonials';
 import CTASection from '../components/CTASection';
 import { ShieldCheck } from 'lucide-react';
@@ -47,6 +48,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      <ProductContent />
       
       <Testimonials />
       
