@@ -7,7 +7,7 @@ const CTASection = () => {
   return (
     <section id="comprar" className="section-container">
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-4xl mx-auto">
-        <div className="p-8 md:p-12 bg-gradient-to-r from-brand-blue to-blue-500 text-white text-center">
+        <div className="p-8 md:p-12 bg-gradient-to-r from-brand-blue to-brand-light-blue text-gray-700 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Aprenda Hipnoterapia Infantil e Transforme Vidas
           </h2>
@@ -76,7 +76,7 @@ const CTASection = () => {
               ✅ QUERO DESCOBRIR A HIPNOTERAPIA INFANTIL
             </a>
             
-            <div className="mt-6 p-4 bg-green-50 rounded-lg inline-block">
+            <div className="mt-6 p-4 bg-brand-light-green rounded-lg inline-block">
               <div className="flex items-center justify-center">
                 <Lock className="h-5 w-5 text-brand-green mr-2" />
                 <p className="text-gray-700 font-medium">

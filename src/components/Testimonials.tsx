@@ -25,7 +25,7 @@ const Testimonials = () => {
     <section className="bg-gray-50 py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="inline-block py-1 px-3 rounded-full bg-green-100 text-brand-green font-medium text-sm mb-3">
+          <span className="inline-block py-1 px-3 rounded-full bg-brand-light-green text-brand-green font-medium text-sm mb-3">
             DEPOIMENTOS
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">

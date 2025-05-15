@@ -13,7 +13,7 @@ const NavBar = () => {
         <div>
           <a 
             href="#comprar" 
-            className="hidden md:inline-block bg-brand-green hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300"
+            className="hidden md:inline-block bg-brand-accent hover:bg-amber-200 text-gray-700 font-medium py-2 px-4 rounded-lg transition-all duration-300"
           >
             Garantir Acesso
           </a>

@@ -38,7 +38,7 @@ const Index = () => {
               }
             ].map((item, index) => (
               <div key={index} className="text-center p-6 rounded-lg bg-gray-50 hover:shadow-md transition-shadow">
-                <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-blue-50 mb-4">
+                <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-brand-light-blue mb-4">
                   {item.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-800">{item.title}</h3>
@@ -55,24 +55,24 @@ const Index = () => {
       
       <CTASection />
       
-      <footer className="bg-gray-800 text-white py-12">
+      <footer className="bg-brand-green text-gray-700 py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="mb-6 flex items-center justify-center">
-            <ShieldCheck className="h-8 w-8 text-brand-light-blue mr-2" />
+            <ShieldCheck className="h-8 w-8 text-brand-blue mr-2" />
             <span className="font-poppins font-semibold text-xl">Hipnoterapia Infantil</span>
           </div>
           
-          <p className="mb-6 max-w-2xl mx-auto text-gray-300">
+          <p className="mb-6 max-w-2xl mx-auto text-gray-700">
             O guia essencial para terapeutas e cuidadores que desejam transformar a vida de crianças através da hipnoterapia.
           </p>
           
-          <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-sm text-gray-400">
-            <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
-            <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors">Contato</a>
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-sm text-gray-600">
+            <a href="#" className="hover:text-gray-900 transition-colors">Termos de Uso</a>
+            <a href="#" className="hover:text-gray-900 transition-colors">Política de Privacidade</a>
+            <a href="#" className="hover:text-gray-900 transition-colors">Contato</a>
           </div>
           
-          <div className="mt-8 pt-8 border-t border-gray-700 text-sm text-gray-400">
+          <div className="mt-8 pt-8 border-t border-gray-300/50 text-sm text-gray-600">
             <p>&copy; {new Date().getFullYear()} Hipnoterapia Infantil. Todos os direitos reservados.</p>
           </div>
         </div>

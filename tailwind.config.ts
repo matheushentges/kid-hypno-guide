@@ -63,12 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Cores personalizadas para a página de vendas
-				'brand-blue': '#2B6CB0',
-				'brand-light-blue': '#90CDF4',
-				'brand-green': '#38A169',
-				'brand-light-green': '#9AE6B4',
-				'brand-bg': '#F7FAFC',
+				// Cores personalizadas para a página de vendas (atualizadas)
+				'brand-blue': '#A7C7E7',    // Cor base (azul-claro)
+				'brand-light-blue': '#D3E4FD', 
+				'brand-green': '#B2CBBF',   // Cor secundária (verde-sálvia)
+				'brand-light-green': '#D5E8DE',
+				'brand-accent': '#FFF3C7',  // Cor de destaque (amarelo-suave)
+				'brand-bg': '#FDFDFD',      // Cor neutra (off-white)
 			},
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
@@ -113,7 +114,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'hero-gradient': 'linear-gradient(90deg, #EBF8FF 0%, #E6FFFA 100%)',
+				'hero-gradient': 'linear-gradient(90deg, #D3E4FD 0%, #D5E8DE 100%)',
 			}
 		}
 	},

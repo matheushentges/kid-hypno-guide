@@ -30,7 +30,7 @@ const Benefits = () => {
       
       <div className="relative z-10">
         <div className="text-center mb-16">
-          <span className="inline-block py-1 px-3 rounded-full bg-blue-100 text-brand-blue font-medium text-sm mb-3">
+          <span className="inline-block py-1 px-3 rounded-full bg-brand-light-blue text-brand-blue font-medium text-sm mb-3">
             RESULTADOS TRANSFORMADORES
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -56,7 +56,7 @@ const Benefits = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <div className="inline-block p-6 rounded-lg bg-blue-50/90 max-w-2xl">
+          <div className="inline-block p-6 rounded-lg bg-brand-light-blue/30 max-w-2xl">
             <p className="text-lg font-medium text-gray-700 italic">
               "As técnicas apresentadas neste guia foram desenvolvidas e testadas com centenas de crianças, mostrando resultados positivos desde as primeiras sessões."
             </p>
