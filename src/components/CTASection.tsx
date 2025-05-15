@@ -6,46 +6,45 @@ const CTASection = () => {
   return (
     <section id="comprar" className="section-container">
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-4xl mx-auto">
-        <div className="p-8 md:p-12 bg-gradient-to-r from-brand-blue to-brand-light-blue text-gray-700 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+        <div className="p-4 md:p-6 bg-gradient-to-r from-brand-blue to-brand-light-blue text-gray-700 text-center">
+          <h2 className="text-xl md:text-2xl font-bold mb-2">
             Aprenda Hipnoterapia Infantil e Transforme Vidas
           </h2>
-          <p className="text-lg md:text-xl mb-0 max-w-2xl mx-auto opacity-90">
+          <p className="text-base md:text-lg mb-0 max-w-2xl mx-auto opacity-90">
             Acesso imediato ao guia completo com técnicas poderosas para o cuidado infantil
           </p>
-        
         </div>
 
-        <div className="p-8 md:p-12">
-          <div className="mb-6">
+        <div className="p-4 md:p-6">
+          <div className="mb-4">
             <CountdownTimer initialMinutes={10} />
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between items-center mb-8 pb-8 border-b border-gray-200">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-4 pb-4 border-b border-gray-200">
             <div>
-              <p className="text-gray-500 mb-2 text-lg">Investimento único:</p>
+              <p className="text-gray-500 mb-1 text-base">Investimento único:</p>
               <div className="flex items-center">
-                <span className="text-gray-400 line-through text-xl" style={{ color: '#dc2727' }}>R$197</span>
-                <span className="ml-3 text-4xl font-bold text-brand-blue" style={{ color: '#3ab895' }}>R$57</span>
+                <span className="text-gray-400 line-through text-lg" style={{ color: '#dc2727' }}>R$197</span>
+                <span className="ml-3 text-2xl font-bold text-brand-blue" style={{ color: '#3ab895' }}>R$57</span>
               </div>
-              <p className="text-sm text-gray-500 mt-1">Pagamento único • Acesso vitalício</p>
+              <p className="text-xs text-gray-500 mt-1">Pagamento único • Acesso vitalício</p>
             </div>
             
-            <div className="mt-6 md:mt-0">
-              <div className="flex items-center mb-2">
+            <div className="mt-4 md:mt-0">
+              <div className="flex items-center mb-1">
                 <Lock className="h-4 w-4 text-brand-green mr-2" />
-                <span className="text-sm text-gray-600">Pagamento 100% seguro</span>
+                <span className="text-xs text-gray-600">Pagamento 100% seguro</span>
               </div>
               <div className="flex items-center">
                 <Zap className="h-4 w-4 text-brand-green mr-2" />
-                <span className="text-sm text-gray-600">Acesso imediato</span>
+                <span className="text-xs text-gray-600">Acesso imediato</span>
               </div>
             </div>
           </div>
 
-          <div className="mb-8">
-            <h3 className="font-semibold text-xl mb-4">O que você vai receber:</h3>
-            <ul className="space-y-3">
+          <div className="mb-4">
+            <h3 className="font-semibold text-lg mb-2">O que você vai receber:</h3>
+            <ul className="space-y-2">
               {[
                 "Guia completo de hipnoterapia infantil",
                 "Técnicas exclusivas para cada desafio emocional",
