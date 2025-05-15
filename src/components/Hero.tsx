@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero = () => {
@@ -10,7 +9,10 @@ const Hero = () => {
       
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="flex flex-col items-center text-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6 text-brand-blue leading-tight max-w-4xl">
+          <h1
+            className="text-3xl md:text-5xl font-bold mb-6 leading-tight max-w-4xl"
+            style={{ color: '#5e81ac' }}
+          >
             Domine a Hipnoterapia Infantil e Transforme a Vida de Crianças com Técnicas Inovadoras
           </h1>
           

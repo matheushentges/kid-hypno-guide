@@ -37,7 +37,7 @@ const ProductContent = () => {
                   Você vai aprender a lidar com:
                 </p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
-                  {["Ansiedade", "Medos excessivos","estresse", "Identificar sinais de depressão"].map((item, index) => (
+                  {["Ansiedade", "Medos excessivos","Estresse", "Identificar sinais de depressão"].map((item, index) => (
                     <li key={index} className="flex items-center">
                       <Check className="h-5 w-5 text-brand-green mr-2 flex-shrink-0" />
                       <span className="text-gray-700">{item}</span>
