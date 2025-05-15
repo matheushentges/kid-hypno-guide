@@ -21,12 +21,6 @@ const CTASection = () => {
             <CountdownTimer initialMinutes={10} />
           </div>
 
-          <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mb-8 rounded-r-md">
-            <p className="text-amber-800 font-medium">
-              ⚠️ <span className="font-bold">OPORTUNIDADE IMPERDÍVEL:</span> Esta oferta especial com desconto de 70% está disponível apenas por tempo limitado. Não perca a chance de transformar vidas com estas técnicas exclusivas!
-            </p>
-          </div>
-
           <div className="flex flex-col md:flex-row justify-between items-center mb-8 pb-8 border-b border-gray-200">
             <div>
               <p className="text-gray-500 mb-2 text-lg">Investimento único:</p>
@@ -70,7 +64,7 @@ const CTASection = () => {
           <div className="text-center">
             <a 
               href="https://google.com" 
-              className="bg-[#3AB795] hover:bg-[#319f82] text-white font-semibold px-6 py-3 rounded-2xl shadow-lg w-full md:w-auto text-center text-lg transition-all duration-300"
+              className="bg-[#3AB795] hover:bg-[#319f82] text-white font-bold text-xl px-8 py-5 rounded-3xl shadow-xl w-full md:w-auto text-center transition-all duration-300"
 
               aria-label="Garantir acesso ao curso agora"
             >
@@ -80,8 +74,9 @@ const CTASection = () => {
             <div className="mt-6 p-4 bg-brand-light-green rounded-lg inline-block">
               <div className="flex items-center justify-center">
                 <Lock className="h-5 w-5 text-brand-green mr-2" />
+                <br>
                 <p className="text-gray-700 font-medium">
-                  🔒 Acesso imediato e vitalício
+                   Acesso imediato e vitalício
                 </p>
               </div>
             </div>
