@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Lock, Zap, CheckCircle } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
@@ -86,10 +85,10 @@ const CTASection = () => {
             <p className="text-sm text-gray-500">
               Garantia de 7 dias. Se não gostar, devolvemos seu dinheiro.
             </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </div>     
+    </section>   
   );
 };
-
 export default CTASection;
