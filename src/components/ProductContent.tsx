@@ -245,7 +245,7 @@ const ProductContent = () => {
 
             <div className="mt-8">
               <a 
-                href="#comprar" 
+                href="https://pay.kirvano.com/223c2ec3-e290-4519-bb53-b77966039549" 
                 className="btn-primary text-lg px-10 py-4"
                 style={{ backgroundColor: '#3ab895', borderColor: '#3ab895' }}
               >
