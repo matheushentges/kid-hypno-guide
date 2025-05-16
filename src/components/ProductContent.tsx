@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Book, Award, Gift, Check, Clock } from 'lucide-react';
+import { Book, Award, Gift, Check, Clock, CheckSquare, FileText } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const ProductContent = () => {
@@ -125,20 +126,39 @@ const ProductContent = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
+                icon: <FileText className="h-6 w-6 text-brand-blue mb-2" />,
                 title: "Técnicas Modernas",
                 description: "Abordagens modernas, criativas e eficazes para lidar com os principais desafios da infância — apresentadas de forma prática e lúdica."
               },
               {
+                icon: <CheckSquare className="h-6 w-6 text-brand-blue mb-2" />,
+                title: "Checklists Práticos",
+                description: "Ferramentas prontas para aplicação imediata, com checklists detalhados para acompanhamento de cada caso, garantindo a correta aplicação das técnicas."
+              },
+              {
+                icon: <Book className="h-6 w-6 text-brand-blue mb-2" />,
                 title: "Estudos de Caso Reais",
                 description: "Nada de teoria solta! Veja como as técnicas foram aplicadas com sucesso em crianças reais, enfrentando situações do dia a dia."
               },
               {
+                icon: <FileText className="h-6 w-6 text-brand-blue mb-2" />,
                 title: "Guias Práticos",
                 description: "Instruções claras e detalhadas para cada técnica, protocolo ou sessão. Você saberá exatamente como aplicar, o que falar e o que observar."
+              },
+              {
+                icon: <CheckSquare className="h-6 w-6 text-brand-blue mb-2" />,
+                title: "Abordagens Práticas",
+                description: "Todo o conteúdo foi desenvolvido pensando na aplicação real, com métodos passo a passo e exemplos concretos para implementação imediata."
+              },
+              {
+                icon: <Clock className="h-6 w-6 text-brand-blue mb-2" />,
+                title: "Protocolos Rápidos",
+                description: "Acesso a protocolos de emergência para situações que exigem intervenção imediata, permitindo resultados visíveis em poucas sessões."
               }
             ].map((item, index) => (
               <Card key={index} className="border-t-4 border-brand-green hover:shadow-lg transition-all">
-                <CardContent className="pt-6">
+                <CardContent className="pt-6 flex flex-col items-center text-center">
+                  {item.icon}
                   <h4 className="text-xl font-semibold mb-3">✅ {item.title}</h4>
                   <p className="text-gray-700">{item.description}</p>
                 </CardContent>
