@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Star, MessageSquare, Heart } from 'lucide-react';
+import { Star, MessageSquare, Heart, User } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const testimonials = [
@@ -111,6 +111,45 @@ const testimonials = [
         image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=500&auto=format&fit=crop"
       }
     ]
+  },
+  {
+    id: 4,
+    username: "fernanda.oliveira",
+    name: "Fernanda Oliveira",
+    role: "Mãe e professora",
+    comment: "Incrível como o guia transformou minha relação com meu filho autista! As técnicas de comunicação e relaxamento fizeram toda a diferença nas crises sensoriais. Recomendo demais, especialmente para pais de crianças neurodivergentes! ✨🧩",
+    likes: 72,
+    time: "3d",
+    image: "https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=500&auto=format&fit=crop",
+    replies: [
+      {
+        id: 401,
+        username: "joao.neuro",
+        name: "João Pimentel",
+        comment: "Fernanda, qual técnica você achou mais eficaz para as crises sensoriais?",
+        likes: 6,
+        time: "2d",
+        image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=500&auto=format&fit=crop"
+      },
+      {
+        id: 402,
+        username: "fernanda.oliveira",
+        name: "Fernanda Oliveira",
+        comment: "João, sem dúvida a técnica do 'Lugar Seguro' adaptada para as necessidades sensoriais específicas dele. Fazemos diariamente e reduziu as crises em 80%!",
+        likes: 14,
+        time: "2d",
+        image: "https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=500&auto=format&fit=crop"
+      },
+      {
+        id: 403,
+        username: "paula.terapeuta",
+        name: "Paula Vasconcellos",
+        comment: "Estou implementando essas técnicas no meu consultório com 3 crianças autistas e os resultados são impressionantes. O capítulo sobre integração sensorial é revolucionário.",
+        likes: 17,
+        time: "1d",
+        image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?q=80&w=500&auto=format&fit=crop"
+      }
+    ]
   }
 ];
 
@@ -130,7 +169,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id}
