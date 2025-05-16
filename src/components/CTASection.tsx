@@ -62,7 +62,7 @@ const CTASection = () => {
 
           <div className="text-center">
             <a 
-              href="https://pay.kirvano.com/223c2ec3-e290-4519-bb53-b77966039549" 
+              href="https://google.com" 
               className="bg-[#3AB795] hover:bg-[#319f82] text-white font-bold text-xl px-8 py-5 rounded-3xl shadow-xl w-full md:w-auto text-center transition-all duration-300"
 
               aria-label="Comprar agora">
